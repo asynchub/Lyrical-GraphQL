@@ -14,7 +14,7 @@ class LyricCreate extends Component {
     this.props.mutate({
       variables: {
         content: this.props.value,
-        songId: this.props.id
+        songId: this.props.songId
       }
     })
   }
